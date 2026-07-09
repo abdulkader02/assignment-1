@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+section{
+    padding: 80px 8%;
+}
+.common-color{
+   color: #2563EB;
+}
+.common-color-2{
+    color: #575757;
+}
+/* Common Button */
+.common-btn{
+    background-color:#1D4ED8;
+    padding:10px 25px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:18px 8%;
+}
+/* Navbar menu */
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: darkgrey;
+}
+/* Hero sytle CSS */
+header{
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url('./assets/banner.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 20px;
+    position: relative;
+}
+.hero-parent{
+    text-align: center;
+    
+    
+}
+.hero-parent h1{
+    color: white;
+    font-size:70px;
+    font-weight: bold;
+    
+}
+.hero-parent p{
+    font-size: 22px;
+    color: #ffffffce;
+}
+.hero-parent button{
+    padding:13px 35px;
+    margin-top: 33%;
+}
+
+/* speakers style CSS */
+.meet-the-speakers{
+    text-align: center;
+    font-size:25px;
+    padding: 30px;
+}
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.speaker-card{
+    background-color: #FFFFFF;
+    border:1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.speaker-card h2, p{
+    padding: 10px;
+}
+.speaker-card img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
