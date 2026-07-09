@@ -71,6 +71,9 @@ header{
     font-weight: bold;
     
 }
+.hero-parent h1 span{
+    font-style: italic;
+}
 .hero-parent p{
     font-size: 22px;
     color: #ffffffce;
