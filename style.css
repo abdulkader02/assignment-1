@@ -7,13 +7,14 @@ img{
     max-width: 100%;
     
 }
-section{
+section,footer{
     padding: 80px 8%;
+    
 }
 .common-color{
    color: #2563EB;
 }
-.common-color-2{
+.common-color-dark{
     color: #575757;
 }
 /* Common Button */
@@ -34,7 +35,7 @@ section{
     border-radius: 8px;
     cursor: pointer;
 }
-.outline-btn-1{
+.outline-btn-premium{
     padding:10px 25px;
     color:black;
     font-weight: bold;
@@ -56,7 +57,7 @@ nav{
     list-style: none;
     gap: 30px;
 }
-a{
+ nav a{
     text-decoration: none;
     color: darkgrey;
 }
@@ -120,8 +121,9 @@ header{
     border:1px solid #E5E7EB;
     border-radius: 12px;
 }
-.speaker-card h2, p{
-    padding: 10px;
+.speaker-card h2,
+.speaker-card p{
+    padding:10px;
 }
 .speaker-card img{
     width:100%;
@@ -153,8 +155,6 @@ header{
     padding: 35px;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
-    width: 400px;
-    height: 550px;
     
 }
 .card h1{
@@ -234,4 +234,44 @@ header{
 }
 .faq-card h3{
     padding: 8px;
+}
+/* Footer style CSS */
+footer{
+    background-color: #0D1B2A;
+    margin-bottom: 10px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+.social-icons span a{
+    color: #FFFFFF;
+    font-size: 23px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.social-icons span a:hover{
+    color:#0077ff;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.452);
+}
+.policy a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.452);
 }
