@@ -20,7 +20,7 @@ section,footer{
 /* Common Button */
 .common-btn{
     background-color:#1D4ED8;
-    padding:10px 25px;
+    padding:15px 35px;
     color: white;
     font-weight: bold;
     border: none;
@@ -56,6 +56,10 @@ nav{
     justify-content: space-between;
     list-style: none;
     gap: 30px;
+}
+.navbar img:hover{
+    cursor: pointer;
+
 }
  nav a{
     text-decoration: none;
@@ -193,6 +197,8 @@ header{
 .premium{
     background-color: #0D1B2A;
     color: white;
+    box-shadow: 0 10px 20px #0077ff;
+    
 }
 .pro-color{
     color: #93C5FD !important;
@@ -245,6 +251,9 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 8px;
+}
+.top img:hover{
+    cursor: pointer;
 }
 .social-icons{
     display: flex;
