@@ -5,6 +5,7 @@
 }
 img{
     max-width: 100%;
+    
 }
 section{
     padding: 80px 8%;
@@ -25,6 +26,22 @@ section{
     border-radius: 8px;
     cursor: pointer;
 }
+.outline-btn{
+    padding:10px 25px;
+    color:#1D4ED8;
+    font-weight: bold;
+    border: 2px solid #1D4ED8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.outline-btn-1{
+    padding:10px 25px;
+    color:black;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
 /* Navbar */
 nav{
     display: flex;
@@ -33,7 +50,7 @@ nav{
     margin:18px 8%;
 }
 /* Navbar menu */
-ul{
+.navbar ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -79,7 +96,8 @@ header{
     color: #ffffffce;
 }
 .hero-parent button{
-    padding:13px 35px;
+    font-size: 20px;
+    padding:15px 35px;
     margin-top: 33%;
 }
 
@@ -87,7 +105,7 @@ header{
 .meet-the-speakers{
     text-align: center;
     font-size:25px;
-    padding: 30px;
+    padding-bottom:30px;
 }
 .speakers{
     display: grid;
@@ -106,6 +124,114 @@ header{
     padding: 10px;
 }
 .speaker-card img{
+    width:100%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+   
+}
+/* Plan style CSS */
+.pricing-heading{
+    text-align: center;
+    margin-bottom:60px ;
+}
+.pricing-heading h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.pricing-heading p{
+    color: #575757;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+    
+}
+.card{
+    background-color: #FFFFFF;
+    padding: 35px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: 400px;
+    height: 550px;
+    
+}
+.card h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+.card p{
+    font-family: verdana;
+    
+    font-size: 22px;
+    color: #888888;
+    margin-bottom: 8px;
+}
+.card hr{
+    margin-bottom:12px;
+}
+.card ul{
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.card li::marker {
+    color: #2563EB;
+}
+.card ul li{
+    padding: 10px;
+    font-size: 20px;
+}
+.card button{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+}
+.card button:hover{
+    background-color:darkgray;
+}
+.premium{
+    background-color: #0D1B2A;
+    color: white;
+}
+.pro-color{
+    color: #93C5FD !important;
+}
+/* FAQ style CSS */
+.faq-heading{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.faq-heading h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+.faq-heading p{
+    color:#575757;
+    margin-bottom: 30px;
+}
+.faq-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+
+}
+.faq-card{
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    box-shadow: 0 3px 10px #E5E7EB;
+    width: 250px;
+    height: 170px;
+    padding: 25px;
+    text-align: left;
+    margin-left: 30%;
+}
+.faq-card h3{
+    padding: 8px;
 }
